@@ -159,12 +159,12 @@ textarea {
 
 @media (max-width: 480px) {
   
-  .page-section > article {
+    .page-section > article {
         width: 90%;
     }
 
     .page-section-giant {
-        min-height: 30em;
+        min-height: 0;
     }
 
     .page-section-giant h1 {
