@@ -29,73 +29,41 @@
 
         <!-- Add your site or application content here -->
 
+        {% assign sorted_items = (site.front_page | sort: 'position') %}
+
         <header>
             <nav id="main-navigation">
                 <div class="pure-menu pure-menu-horizontal">
                     <a href="#" class="pure-menu-heading pure-menu-link">Jen and Jake</a>
                     <ul class="pure-menu-list">
-                        <li class="pure-menu-item"><a href="#big-donuts" class="pure-menu-link">Our Story</a></li>
-                        <li class="pure-menu-item"><a href="#location-intro" class="pure-menu-link">Location</a></li>
-                        <li class="pure-menu-item"><a href="#contact" class="pure-menu-link">Contact Us</a></li>
+
+                        {% for post in sorted_items %}
+                        <li class="pure-menu-item">
+                            <a href="#{{ post.id | remove_first: "/" | replace: '/', '-' }}" class="pure-menu-link">
+                            {% if post.menu %}
+                                {{ post.menu }}
+                            {% else %}
+                                {{ post.heading }}
+                            {% endif %}
+                            </a>
+                        </li>
+                        {% endfor %}
                     </ul>
                 </div>
             </nav>
         </header>
 
-        <section id="big-donuts" class="page-section-giant">
-            <h1>August 25, 2018</h1>
-        </section>
+        {% for post in sorted_items %}
+            <section class="page-section-giant" style="background-image: url('{{ post.background }}');" id="{{ post.id | remove_first: "/" | replace: '/', '-' }}">
+                <h1>{{ post.heading }}</h1>
+            </section>
 
-        <section id="our-story" class="page-section">
-            <article>
-                <h1>A match made in heaven</h1>
-                <p>We like donuts</p>
-            </article>
-        </section>
-
-        <section id="location-intro" class="page-section-giant">
-            <h1>Nashoba Valley Winery</h1>
-        </section>
-
-        <section id="location" class="page-section">
-            <article>
-                <h1>Location</h1>
-                <p>Nashoba Valley Winery</p>
-                <iframe height="450" frameborder="0" style="border:0; width: 100%;" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJLTJ6pY7y44kRQy3ZOZLud5Y&key=AIzaSyAzfHzyi7djwhqBvYQlcwEwTVa-Amyl1oc" allowfullscreen></iframe>
-            </article>
-        </section>
-
-        <section id="contact-intro" class="page-section-giant">
-            <h1>Contact Us</h1>
-        </section>
-
-        <section id="contact" class="page-section">
-            <article>
-                <form class="pure-form pure-form-aligned" action="https://formspree.io/jacobx1@gmail.com" method="POST">
-                    <fieldset>
-                        <div class="pure-control-group">
-                            <label for="name">Name</label>
-                            <input id="name" type="text" placeholder="Name" name="Name">
-                            <span class="pure-form-message-inline">This is a required field.</span>
-                        </div>
-
-                        <div class="pure-control-group">
-                            <label for="email">Email Address</label>
-                            <input id="email" type="email" placeholder="Email Address" name="Email">
-                        </div>
-
-                        <div class="pure-control-group">
-                            <label for="foo">Message</label>
-                            <textarea placeholder="Something nice" name="Message"></textarea>
-                        </div>
-
-                        <div class="pure-controls">
-                            <button type="submit" class="pure-button pure-button-primary">Submit</button>
-                        </div>
-                    </fieldset>
-                </form>
-            </article>
-        </section>
+            <section class="page-section">
+                <article>
+                    {{ post.content }}
+                </article>
+            </section>
+        {% endfor %}
 
         <footer id="main-footer">
             <p>Jen and Jake 2018</p>
