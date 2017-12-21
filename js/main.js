@@ -1,3 +1,3 @@
 skrollr.init({
-		forceHeight: false
-	});
+	forceHeight: false
+});

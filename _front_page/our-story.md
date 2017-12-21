@@ -1,6 +1,6 @@
 ---
 heading: August 25, 2018
-background: https://media.cntraveler.com/photos/59ca6488e11975084c5841ea/master/pass/Federal_160415_FEDERALdonuts64786.jpg
+background: img/j_stockton_20150729_8940.jpg
 position: 0
 menu: Our Story
 ---
