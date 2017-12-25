@@ -35,7 +35,7 @@
             <nav id="main-navigation">
                 <div class="pure-menu pure-menu-horizontal">
                     <a href="#" class="pure-menu-heading pure-menu-link">Jen and Jake</a>
-                    <ul class="pure-menu-list">
+                    <ul class="pure-menu-list site-menu">
 
                         {% for post in sorted_items %}
                         <li class="pure-menu-item">
@@ -58,7 +58,7 @@
                 <h1>{{ post.heading }}</h1>
             </section>
 
-            <section class="page-section">
+            <section class="page-section {{ post.classes }}">
                 <article>
                     {{ post.content }}
                 </article>

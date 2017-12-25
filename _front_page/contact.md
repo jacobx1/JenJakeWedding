@@ -4,22 +4,21 @@ background: img/j_stockton_20150729_9048.jpg
 position: 2
 ---
 
-<form class="pure-form pure-form-aligned" action="https://formspree.io/jacobx1@gmail.com" method="POST">
-    <fieldset>
+<form class="pure-form pure-g" action="https://formspree.io/jacobx1@gmail.com" method="POST">
+    <fieldset  class="pure-u-1">
         <div class="pure-control-group">
-            <label for="name">Name</label>
-            <input id="name" type="text" placeholder="Name" name="Name">
-            <span class="pure-form-message-inline">This is a required field.</span>
+            <label for="name" class="pure-u-1">Name</label>
+            <input id="name" type="text" placeholder="Your Name" name="Name" class="pure-u-1">
         </div>
 
         <div class="pure-control-group">
-            <label for="email">Email Address</label>
-            <input id="email" type="email" placeholder="Email Address" name="Email">
+            <label for="email" class="pure-u-1">Email Address</label>
+            <input id="email" type="email" placeholder="name@example.com" name="Email" class="pure-u-1">
         </div>
 
         <div class="pure-control-group">
-            <label for="foo">Message</label>
-            <textarea placeholder="Something nice" name="Message"></textarea>
+            <label for="foo" class="pure-u-1">Message</label>
+            <textarea placeholder="Hi!" name="Message" style="height: 10em; resize: none" class="pure-u-1"></textarea>
         </div>
 
         <div class="pure-controls">

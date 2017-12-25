@@ -1,10 +1,13 @@
 ---
-heading: August 25, 2018
+heading: Our Story
 background: img/j_stockton_20150729_8922.jpg
 position: 0
 menu: Our Story
+classes: center-text
 ---
 
-# A match made in heaven
+# We met at Big Blue...
 
-We like donuts
+Jen and Jake met eachother while working at IBM. After several months of getting to know eachother as friends, Jake finally got the courage to ask Jen out on a real date on February 12th, 2015. They went to a rock show at a local, Lowell bar the next day and it has been a loving adventure ever since.
+
+_Engagement photos by [Jaime Stockton](https://www.jaimestocktonphotography.com/index)_

@@ -107,22 +107,25 @@ textarea {
     }
 
     end {
-        background-position:50% -300vh;
+        background-position:50% -150vh;
     }
 }
 
 .page-section > article {
-    width: 600px;
+    max-width: 600px;
     padding: 1em;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2em;
-    margin-bottom: 2em;
     background-color: rgba(255, 255, 255, 0.8);
+}
+
+.center-text {
+    text-align: center;
 }
 
 .page-section-giant {
     background-size: cover;
+    background-attachment: fixed;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -144,8 +147,16 @@ textarea {
     text-align: center;
 }
 
+#main-footer {
+    text-align: center;
+}
+
 @media (max-width: 480px) {
   
+    .site-menu {
+        visibility: hidden;
+    }
+
     .page-section > article {
         width: 90%;
     }
