@@ -1,3 +1,0 @@
-skrollr.init({
-	forceHeight: false
-});

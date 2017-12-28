@@ -2,3 +2,4 @@ name: Jen and Jake Wedding
 collections:
   - front_page
 markdown: kramdown
+exclude: ['node_modules']
