@@ -1,7 +1,7 @@
 ---
 heading: Nashoba Valley Winery
 background: img/NashobaValley.jpg
-position: 3
+position: 4
 menu: RSVP
 classes: center-text
 single: true

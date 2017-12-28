@@ -1,7 +1,7 @@
 ---
 heading: Contact Us
 background: img/j_stockton_20150729_9048.jpg
-position: 2
+position: 100
 ---
 
 <form class="pure-form pure-g" action="https://formspree.io/jacobx1@gmail.com" method="POST">
