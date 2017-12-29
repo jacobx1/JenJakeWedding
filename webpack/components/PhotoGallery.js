@@ -63,7 +63,6 @@ const PHOTO_SET = [
   {src: 'img/j_stockton_20150729_8956.jpg', width: 2, height: 3},
   {src: 'img/j_stockton_20150729_8958.jpg'},
   {src: 'img/j_stockton_20150729_8974.jpg'},
-  {src: 'img/j_stockton_20150729_8980.jpg', width: 2, height: 3},
   {src: 'img/j_stockton_20150729_8999.jpg'},
   {src: 'img/j_stockton_20150729_9048.jpg', width: 2, height: 3},
   {src: 'img/j_stockton_20150729_9062.jpg', width: 2, height: 3}
