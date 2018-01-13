@@ -122,7 +122,6 @@ body {
     transform-style: preserve-3d;
     overflow-y: scroll;
     overflow-x: hidden;
-    -webkit-overflow-scrolling: touch;
     height: 100%;
 }
 
