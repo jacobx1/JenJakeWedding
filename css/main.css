@@ -112,18 +112,14 @@ html {
 body {
     margin:0;
     padding:0;
+      -webkit-perspective: 1px;
+      perspective: 1px;
+      -webkit-transform-style: preserve-3d;
+      transform-style: preserve-3d;
     height: 100%;
-  }
-
-#container {
-    -webkit-perspective: 1px;
-    perspective: 1px;
-    -webkit-transform-style: preserve-3d;
-    transform-style: preserve-3d;
     overflow-y: scroll;
     overflow-x: hidden;
-    height: 100%;
-}
+  }
 
 .back-drop {
     bottom: 0;
