@@ -101,16 +101,6 @@ textarea {
     overflow: auto;
 }
 
-@-skrollr-keyframes animation1 {
-    0 {
-        background-position:50% 0px;
-    }
-
-    end {
-        background-position:50% -150vh;
-    }
-}
-
 .page-section > article {
     max-width: 600px;
     padding: 1em;
@@ -140,8 +130,6 @@ textarea {
     background-repeat: no-repeat;
     background-origin: content-box;
     text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
-
-    -skrollr-animation-name: animation1;
 }
 
 .page-section-giant h1 {

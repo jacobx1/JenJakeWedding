@@ -4,12 +4,6 @@ import ReactDOM from 'react-dom';
 import { isMobile } from './utils/MobileCheck';
 import MenuActiveScroller from './utils/MenuActiveScroller';
 
-if (!isMobile.any()) {
-  skrollr.init({
-    forceHeight: false
-  });
-}
-
 ReactDOM.render(
   <PhotoGallery />,
   document.getElementById('wedding-gallery')
