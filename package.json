@@ -1,7 +1,8 @@
 {
     "name": "jen-jake-wedding",
     "scripts": {
-        "build": "node ./node_modules/webpack/bin/webpack.js && jekyll build"
+        "build": "node ./node_modules/webpack/bin/webpack.js",
+        "build-full": "node ./node_modules/webpack/bin/webpack.js && jekyll build"
     },
     "version": "1.0.0",
     "description": "Jen and Jake website",
