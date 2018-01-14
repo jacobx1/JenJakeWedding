@@ -121,7 +121,6 @@ textarea {
 
 .page-section-giant {
     background-size: cover;
-    background-attachment: fixed;
     min-height: 100vh;
     display: flex;
     justify-content: center;
