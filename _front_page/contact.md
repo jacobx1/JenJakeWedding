@@ -18,7 +18,7 @@ position: 100
 
         <div class="pure-control-group">
             <label for="foo" class="pure-u-1">Message</label>
-            <textarea placeholder="Hi!" name="Message" style="height: 10em; resize: none" class="pure-u-1"></textarea>
+            <textarea placeholder="Leave a message after the..." name="Message" style="height: 10em; resize: none" class="pure-u-1"></textarea>
         </div>
 
         <div class="pure-controls">
