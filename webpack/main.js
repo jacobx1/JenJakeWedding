@@ -8,5 +8,3 @@ ReactDOM.render(
   <PhotoGallery />,
   document.getElementById('wedding-gallery')
 );
-
-const scroller = new MenuActiveScroller('#main-navigation ul.site-menu');
