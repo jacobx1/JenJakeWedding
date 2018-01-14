@@ -2448,7 +2448,8 @@ var PhotoGallery = function (_React$Component) {
           onClickPrev: this.gotoPrevious,
           onClickNext: this.gotoNext,
           currentImage: this.state.currentImage,
-          isOpen: this.state.lightboxIsOpen
+          isOpen: this.state.lightboxIsOpen,
+          width: 2048
         })
       );
     }
@@ -2460,7 +2461,13 @@ var PhotoGallery = function (_React$Component) {
 exports.default = PhotoGallery;
 
 
-var PHOTO_SET = [{ src: 'img/j_stockton_20150729_8873.jpg' }, { src: 'img/j_stockton_20150729_8878.jpg', width: 2, height: 3 }, { src: 'img/j_stockton_20150729_8883.jpg' }, { src: 'img/j_stockton_20150729_8887.jpg' }, { src: 'img/j_stockton_20150729_8897.jpg', width: 2, height: 3 }, { src: 'img/j_stockton_20150729_8905.jpg', width: 2, height: 3 }, { src: 'img/j_stockton_20150729_8918.jpg', width: 2, height: 3 }, { src: 'img/j_stockton_20150729_8920.jpg', width: 2, height: 3 }, { src: 'img/j_stockton_20150729_8922.jpg' }, { src: 'img/j_stockton_20150729_8940.jpg', width: 2, height: 3 }, { src: 'img/j_stockton_20150729_8956.jpg', width: 2, height: 3 }, { src: 'img/j_stockton_20150729_8958.jpg' }, { src: 'img/j_stockton_20150729_8974.jpg' }, { src: 'img/j_stockton_20150729_8999.jpg' }, { src: 'img/j_stockton_20150729_9048.jpg', width: 2, height: 3 }, { src: 'img/j_stockton_20150729_9062.jpg', width: 2, height: 3 }];
+var PHOTO_SET = [{ src: 'img/j_stockton_20150729_8873.jpg' }, { src: 'img/j_stockton_20150729_8878.jpg', width: 2, height: 3 },
+//{src: 'img/j_stockton_20150729_8883.jpg'},
+{ src: 'img/j_stockton_20150729_8887.jpg' }, { src: 'img/j_stockton_20150729_8897.jpg', width: 2, height: 3 },
+//{src: 'img/j_stockton_20150729_8905.jpg', width: 2, height: 3},
+{ src: 'img/j_stockton_20150729_8918.jpg', width: 2, height: 3 }, { src: 'img/j_stockton_20150729_8920.jpg', width: 2, height: 3 },
+//{src: 'img/j_stockton_20150729_8922.jpg'},
+{ src: 'img/j_stockton_20150729_8940.jpg', width: 2, height: 3 }, { src: 'img/j_stockton_20150729_8956.jpg', width: 2, height: 3 }, { src: 'img/j_stockton_20150729_8958.jpg' }];
 
 PHOTO_SET.map(function (item) {
   item.width = item.width || 3;
