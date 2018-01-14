@@ -1,3 +1,3 @@
 # JenJakeWedding
 
-Our wedding site - https://jacobx1.github.io/JenJakeWedding/
+Our wedding site - https://schwind.us
