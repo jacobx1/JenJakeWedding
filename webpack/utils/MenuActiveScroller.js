@@ -16,6 +16,19 @@ export default class MenuActiveScroller {
 
         this.selectActive();
         this.jWindow.scroll(() => this.selectActive());
+
+        const thisWindow = this.jWindow;
+
+        this.menuItems.each(function() {
+            $(this).click((e) => {
+                e.preventDefault();
+                const item = $($(e.target).attr('href'));
+                $("html, body").animate({
+                    scrollTop: item.offset().top
+                }, 500);
+                window.location.hash = this.hash;
+            });
+        });
     }
 
     selectActive() {

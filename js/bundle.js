@@ -2353,15 +2353,9 @@ var _MenuActiveScroller2 = _interopRequireDefault(_MenuActiveScroller);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-if (!_MobileCheck.isMobile.any()) {
-  skrollr.init({
-    forceHeight: false
-  });
-}
-
 _reactDom2.default.render(_react2.default.createElement(_PhotoGallery2.default, null), document.getElementById('wedding-gallery'));
 
-var scroller = new _MenuActiveScroller2.default('#main-navigation ul.site-menu');
+var scroller = new _MenuActiveScroller2.default(".site-menu");
 
 /***/ }),
 /* 33 */
@@ -2466,7 +2460,7 @@ var PhotoGallery = function (_React$Component) {
 exports.default = PhotoGallery;
 
 
-var PHOTO_SET = [{ src: 'img/j_stockton_20150729_8873.jpg' }, { src: 'img/j_stockton_20150729_8878.jpg', width: 2, height: 3 }, { src: 'img/j_stockton_20150729_8883.jpg' }, { src: 'img/j_stockton_20150729_8887.jpg' }, { src: 'img/j_stockton_20150729_8897.jpg', width: 2, height: 3 }, { src: 'img/j_stockton_20150729_8905.jpg', width: 2, height: 3 }, { src: 'img/j_stockton_20150729_8918.jpg', width: 2, height: 3 }, { src: 'img/j_stockton_20150729_8920.jpg', width: 2, height: 3 }, { src: 'img/j_stockton_20150729_8922.jpg' }, { src: 'img/j_stockton_20150729_8940.jpg', width: 2, height: 3 }, { src: 'img/j_stockton_20150729_8956.jpg', width: 2, height: 3 }, { src: 'img/j_stockton_20150729_8958.jpg' }, { src: 'img/j_stockton_20150729_8974.jpg' }, { src: 'img/j_stockton_20150729_8980.jpg', width: 2, height: 3 }, { src: 'img/j_stockton_20150729_8999.jpg' }, { src: 'img/j_stockton_20150729_9048.jpg', width: 2, height: 3 }, { src: 'img/j_stockton_20150729_9062.jpg', width: 2, height: 3 }];
+var PHOTO_SET = [{ src: 'img/j_stockton_20150729_8873.jpg' }, { src: 'img/j_stockton_20150729_8878.jpg', width: 2, height: 3 }, { src: 'img/j_stockton_20150729_8883.jpg' }, { src: 'img/j_stockton_20150729_8887.jpg' }, { src: 'img/j_stockton_20150729_8897.jpg', width: 2, height: 3 }, { src: 'img/j_stockton_20150729_8905.jpg', width: 2, height: 3 }, { src: 'img/j_stockton_20150729_8918.jpg', width: 2, height: 3 }, { src: 'img/j_stockton_20150729_8920.jpg', width: 2, height: 3 }, { src: 'img/j_stockton_20150729_8922.jpg' }, { src: 'img/j_stockton_20150729_8940.jpg', width: 2, height: 3 }, { src: 'img/j_stockton_20150729_8956.jpg', width: 2, height: 3 }, { src: 'img/j_stockton_20150729_8958.jpg' }, { src: 'img/j_stockton_20150729_8974.jpg' }, { src: 'img/j_stockton_20150729_8999.jpg' }, { src: 'img/j_stockton_20150729_9048.jpg', width: 2, height: 3 }, { src: 'img/j_stockton_20150729_9062.jpg', width: 2, height: 3 }];
 
 PHOTO_SET.map(function (item) {
   item.width = item.width || 3;
@@ -24947,6 +24941,21 @@ var MenuActiveScroller = function () {
         this.selectActive();
         this.jWindow.scroll(function () {
             return _this.selectActive();
+        });
+
+        var thisWindow = this.jWindow;
+
+        this.menuItems.each(function () {
+            var _this2 = this;
+
+            $(this).click(function (e) {
+                e.preventDefault();
+                var item = $($(e.target).attr('href'));
+                $("html, body").animate({
+                    scrollTop: item.offset().top
+                }, 500);
+                window.location.hash = _this2.hash;
+            });
         });
     }
 
