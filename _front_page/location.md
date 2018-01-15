@@ -1,6 +1,6 @@
 ---
 heading: Nashoba Valley Winery
-background: img/NashobaValley.jpg
+background: img/winery.jpg
 position: 2
 menu: Location
 classes: center-text
