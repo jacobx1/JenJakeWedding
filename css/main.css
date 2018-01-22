@@ -101,11 +101,11 @@ textarea {
 @-skrollr-keyframes parallax {
 
 	0-bottom-top {
-		background-position: center -50vh;
+		top: -50vh;
 	}
 
 	0-top-bottom {
-		background-position: center 0px;
+        top: 0vh;
 	}
 }
 
@@ -121,6 +121,7 @@ textarea {
     position: absolute;
     top: 0%;
     left: 0%;
+    will-change: scroll-position;
 }
 
 .page-section {
