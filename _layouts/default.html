@@ -20,14 +20,6 @@
     </head>
     <body>
 
-        <div id="skrollr-body">
-
-        <!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
-
-        <!-- Add your site or application content here -->
-
         {% assign sorted_items = site.front_page | sort: 'position' %}
 
         <header>
@@ -51,6 +43,12 @@
                 </div>
             </nav>
         </header>
+
+        <div id="skrollr-body">
+
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
 
         {% for post in sorted_items %}
             {% if post.single %}
