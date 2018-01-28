@@ -8,7 +8,7 @@ classes: center-text
 
 # Hotels
 
-[Holiday Inn - Hudson](https://www.ihg.com/holidayinnexpress/hotels/us/en/hudson/boshd/hoteldetail)  
+[Holiday Inn Express - Boston/Marlboro](https://www.ihg.com/holidayinnexpress/hotels/us/en/hudson/boshd/hoteldetail)  
 
 [The Lodge - Bolton](https://theinternational.com/thelodge/)  
 
