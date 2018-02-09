@@ -1,35 +1,33 @@
 ---
-heading: Hello Boston!
+heading: Hello Massachusetts!
 background: img/boston.JPG
-position: 5
-menu: Boston
+position: 3
+menu: Accommodations & Things to Do
 classes: center-text
 ---
 
-# Hotels
+# Hotel
 
-[Holiday Inn Express - Boston/Marlboro](https://www.ihg.com/holidayinnexpress/hotels/us/en/hudson/boshd/hoteldetail)  
+We have a hotel block at the [Courtyard Marriott Boston Littleton](http://www.marriott.com/hotels/travel/boslt-courtyard-boston-littleton/). The reservation link will be provided soon.
 
-[The Lodge - Bolton](https://theinternational.com/thelodge/)  
-
-[Courtyard Marriott - Littleton](http://www.marriott.com/hotels/travel/boslt-courtyard-boston-littleton/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2)  
-
+The Courtyard Marriott is located right off of Exit 31 of Interstate 495 in [The Point plaza](http://www.thepoint495.com/), located about 15 minutes driving from the venue. The plaza has various shopping and eating options. If you look across the street, you can see IBM too.
 
 # Some things to See and Do
 
-If you are coming from out of town for the wedding, be sure to make some time to see our great city of Boston and surrounding cities. Following are a few of our favorite attractions.
+If you are coming from out of town for the wedding, be sure to make some time to see our great city of Boston and surrounding cities. Following are a few of our favorite attractions and restaurants.
 
 ## Boston
 
-Back Bay  
-Park Street  
-Quincy Market  
+Copley Square/Back Bay (Newbury Street)
+Quincy Market
+Boston Common
+Harvard Square (Cambridge, MA)
 
 ## Lowell
 
-Blue Taleh  
-Cobblestones/Moonstones  
+Blue Taleh
+Cobblestones/Moonstones
 
 ## Hudson
 
-Rail Trail Pizza
+Rail Trail Pizza: any and all of their pizzas!
