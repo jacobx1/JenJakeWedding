@@ -18,17 +18,17 @@ If you are coming from out of town for the wedding, be sure to make some time to
 
 ## Boston
 
-Copley Square/Back Bay (Newbury Street)<br>
-Quincy Market<br>
-Boston Common<br>
-Harvard Square (Cambridge, MA)<br>
+Copley Square/Back Bay (Newbury Street)  
+Quincy Market  
+Boston Common  
+Harvard Square (Cambridge, MA)  
 
 ## Lowell
 
-Blue Taleh<br>
-Cobblestones/Moonstones<br>
+Blue Taleh  
+Cobblestones/Moonstones  
 
 ## Hudson
 
-Rail Trail Flatbread<br>
-Medusa Brewing Company<br>
+Rail Trail Flatbread  
+Medusa Brewing Company  
