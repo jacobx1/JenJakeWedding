@@ -4,7 +4,7 @@ background: img/j_stockton_20150729_9048.jpg
 position: 100
 ---
 
-<form class="pure-form pure-g" action="https://formspree.io/jacobx1@gmail.com" method="POST">
+<form class="pure-form pure-g" data-netlify="true" name="wedding-contact">
     <fieldset  class="pure-u-1">
         <div class="pure-control-group">
             <label for="name" class="pure-u-1">Name</label>
