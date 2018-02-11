@@ -27,7 +27,7 @@
     </head>
     <body>
 
-        {% assign sorted_items = site.front_page | sort: 'position' %}
+        {% assign sorted_items = site.front_page | where: "draft","false" | sort: 'position' %}
 
         <header>
             <nav id="main-navigation">

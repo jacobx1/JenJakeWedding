@@ -5,6 +5,7 @@ position: 5
 menu: Registry
 classes: center-text
 single: false
+draft: true
 ---
 
 Our greatest gift would be getting to see you at our wedding. However, if you feel so inclined as to
