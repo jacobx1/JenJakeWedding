@@ -1,6 +1,6 @@
 ---
 heading: Our Story
-background: img/j_stockton_20150729_8922.jpg
+background: img/header.jpg
 position: 0
 menu: Our Story
 classes: center-text
