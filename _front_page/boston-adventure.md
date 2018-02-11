@@ -2,7 +2,7 @@
 heading: Hello Massachusetts!
 background: img/boston.JPG
 position: 3
-menu: Accommodations & Things to Do
+menu: Accommodations
 classes: center-text
 ---
 
