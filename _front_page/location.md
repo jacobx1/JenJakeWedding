@@ -10,7 +10,7 @@ classes: center-text
 
 The ceremony and reception will be held at [Nashoba Valley Winery](https://nashobawinery.com/) on __August 25, 2018__
 
-The ceremony will be held outdoors, at the gazebo. Following the ceremony, the reception is inside the pavilion. The attire suggestion is [daytime semiformal/dressy casual](http://mentalfloss.com/article/80325/what-7-wedding-dress-codes-really-mean). There won't be much walking, but make sure you have comfortable shoes for dancing!
+The ceremony will be held outdoors. Following the ceremony, the reception is inside the pavilion. The attire suggestion is [daytime semiformal/dressy casual](http://mentalfloss.com/article/80325/what-7-wedding-dress-codes-really-mean). There won't be much walking, but make sure you have comfortable shoes for dancing!
 
 Don't forget to [RSVP!](https://schwind.us/#front_page-rsvp)
 
