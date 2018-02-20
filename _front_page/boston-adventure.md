@@ -1,5 +1,5 @@
 ---
-heading: Hello MA!
+heading: Welcome
 background: img/boston.JPG
 position: 3
 menu: Accommodations
