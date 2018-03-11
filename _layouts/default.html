@@ -37,7 +37,7 @@
 
                         {% for post in sorted_items %}
                         <li class="pure-menu-item">
-                            <a href="#{{ post.id | remove_first: "/" | replace: '/', '-' }}" class="pure-menu-link">
+                            <a href="#{{ post.target }}" class="pure-menu-link">
                             {% if post.menu %}
                                 {{ post.menu }}
                             {% else %}
@@ -60,14 +60,14 @@
         {% for post in sorted_items %}
             {% if post.single %}
 
-            <section class="page-section-single {{ post.classes }}" id="{{ post.id | remove_first: "/" | replace: '/', '-' }}">
+            <section class="page-section-single {{ post.classes }}" id="{{ post.target }}">
                 <article>
                     {{ post.content }}
                 </article>
             </section>
 
             {% else %}
-            <section class="page-section-giant" id="{{ post.id | remove_first: "/" | replace: '/', '-' }}">
+            <section class="page-section-giant" id="{{ post.target }}">
                 <h1>{{ post.heading }}</h1>
                 <div class="background-holder" style="background-image: url('{{ post.background }}');"></div>
             </section>

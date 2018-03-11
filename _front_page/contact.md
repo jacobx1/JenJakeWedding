@@ -2,6 +2,7 @@
 heading: Contact Us
 background: img/j_stockton_20150729_9048.jpg
 position: 100
+target: contact
 ---
 
 <form class="pure-form pure-g" data-netlify="true" name="wedding-contact">

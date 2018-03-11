@@ -6,6 +6,7 @@ menu: Registry
 classes: center-text
 single: false
 draft: true
+target: registry
 ---
 
 Our greatest gift would be getting to see you at our wedding. However, if you feel so inclined as to

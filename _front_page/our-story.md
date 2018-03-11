@@ -4,6 +4,7 @@ background: img/header.jpg
 position: 0
 menu: Our Story
 classes: center-text
+target: story
 ---
 
 # We met at Big Blue...

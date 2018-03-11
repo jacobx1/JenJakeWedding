@@ -2443,7 +2443,8 @@ var PhotoGallery = function (_React$Component) {
         'div',
         null,
         _react2.default.createElement(_reactPhotoGallery2.default, { photos: PHOTO_SET, onClick: this.openLightbox }),
-        _react2.default.createElement(_reactImages2.default, { images: PHOTO_SET,
+        _react2.default.createElement(_reactImages2.default, {
+          images: PHOTO_SET,
           onClose: this.closeLightbox,
           onClickPrev: this.gotoPrevious,
           onClickNext: this.gotoNext,
@@ -2467,7 +2468,12 @@ var PHOTO_SET = [{ src: 'img/j_stockton_20150729_8873.jpg' }, { src: 'img/j_stoc
 //{src: 'img/j_stockton_20150729_8905.jpg', width: 2, height: 3},
 { src: 'img/j_stockton_20150729_8918.jpg', width: 2, height: 3 }, { src: 'img/j_stockton_20150729_8920.jpg', width: 2, height: 3 },
 //{src: 'img/j_stockton_20150729_8922.jpg'},
-{ src: 'img/j_stockton_20150729_8940.jpg', width: 2, height: 3 }, { src: 'img/j_stockton_20150729_8956.jpg', width: 2, height: 3 }, { src: 'img/j_stockton_20150729_8958.jpg' }];
+{ src: 'img/j_stockton_20150729_8940.jpg', width: 2, height: 3 }, { src: 'img/j_stockton_20150729_8956.jpg', width: 2, height: 3 }, { src: 'img/j_stockton_20150729_8958.jpg'
+  //{src: 'img/j_stockton_20150729_8974.jpg'},
+  //{src: 'img/j_stockton_20150729_8999.jpg'},
+  //{src: 'img/j_stockton_20150729_9048.jpg', width: 2, height: 3},
+  //{src: 'img/j_stockton_20150729_9062.jpg', width: 2, height: 3}
+}];
 
 PHOTO_SET.map(function (item) {
   item.width = item.width || 3;
@@ -24887,27 +24893,27 @@ exports.default = !!(typeof window !== 'undefined' && window.document && window.
 
 
 Object.defineProperty(exports, "__esModule", {
-    value: true
+  value: true
 });
 var isMobile = exports.isMobile = {
-    Android: function Android() {
-        return navigator.userAgent.match(/Android/i);
-    },
-    BlackBerry: function BlackBerry() {
-        return navigator.userAgent.match(/BlackBerry/i);
-    },
-    iOS: function iOS() {
-        return navigator.userAgent.match(/iPhone|iPad|iPod/i);
-    },
-    Opera: function Opera() {
-        return navigator.userAgent.match(/Opera Mini/i);
-    },
-    Windows: function Windows() {
-        return navigator.userAgent.match(/IEMobile/i) || navigator.userAgent.match(/WPDesktop/i);
-    },
-    any: function any() {
-        return isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows();
-    }
+  Android: function Android() {
+    return navigator.userAgent.match(/Android/i);
+  },
+  BlackBerry: function BlackBerry() {
+    return navigator.userAgent.match(/BlackBerry/i);
+  },
+  iOS: function iOS() {
+    return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+  },
+  Opera: function Opera() {
+    return navigator.userAgent.match(/Opera Mini/i);
+  },
+  Windows: function Windows() {
+    return navigator.userAgent.match(/IEMobile/i) || navigator.userAgent.match(/WPDesktop/i);
+  },
+  any: function any() {
+    return isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows();
+  }
 };
 
 /***/ }),
@@ -24918,7 +24924,7 @@ var isMobile = exports.isMobile = {
 
 
 Object.defineProperty(exports, "__esModule", {
-    value: true
+  value: true
 });
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -24926,66 +24932,66 @@ var _createClass = function () { function defineProperties(target, props) { for 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 var MenuActiveScroller = function () {
-    function MenuActiveScroller(menuSelector) {
-        var _this = this;
+  function MenuActiveScroller(menuSelector) {
+    var _this = this;
 
-        _classCallCheck(this, MenuActiveScroller);
+    _classCallCheck(this, MenuActiveScroller);
 
-        this.jWindow = $(window);
-        this.topMenu = $(menuSelector);
-        this.topMenuHeight = this.topMenu.outerHeight() + 15;
+    this.jWindow = $(window);
+    this.topMenu = $(menuSelector);
+    this.topMenuHeight = this.topMenu.outerHeight() + 15;
 
-        // All list items
-        this.menuItems = this.topMenu.find('a');
-        // Anchors corresponding to menu items
-        this.scrollItems = this.menuItems.map(function () {
-            var item = $($(this).attr('href'));
-            if (item.length) {
-                return item;
-            }
-        });
+    // All list items
+    this.menuItems = this.topMenu.find('a');
+    // Anchors corresponding to menu items
+    this.scrollItems = this.menuItems.map(function () {
+      var item = $($(this).attr('href'));
+      if (item.length) {
+        return item;
+      }
+    });
 
-        this.selectActive();
-        this.jWindow.scroll(function () {
-            return _this.selectActive();
-        });
+    this.selectActive();
+    this.jWindow.scroll(function () {
+      return _this.selectActive();
+    });
 
-        var thisWindow = this.jWindow;
+    var thisWindow = this.jWindow;
 
-        this.menuItems.each(function () {
-            var _this2 = this;
+    this.menuItems.each(function () {
+      var _this2 = this;
 
-            $(this).click(function (e) {
-                e.preventDefault();
-                var item = $($(e.target).attr('href'));
-                $("html, body").animate({
-                    scrollTop: item.offset().top
-                }, 500);
-                window.location.hash = _this2.hash;
-            });
-        });
+      $(this).click(function (e) {
+        e.preventDefault();
+        var item = $($(e.target).attr('href'));
+        $('html, body').animate({
+          scrollTop: item.offset().top
+        }, 500);
+        window.location.hash = _this2.hash;
+      });
+    });
+  }
+
+  _createClass(MenuActiveScroller, [{
+    key: 'selectActive',
+    value: function selectActive() {
+      // Get container scroll position
+      var fromTop = this.jWindow.scrollTop() + this.topMenuHeight;
+
+      // Get id of current scroll item
+      var cur = this.scrollItems.map(function () {
+        var windowTop = $(this).offset().top;
+        if (windowTop < fromTop) return this;
+      });
+      // Get the id of the current element
+      cur = cur[cur.length - 1];
+      var id = cur && cur.length ? cur[0].id : '';
+      // Set/remove active class
+      this.menuItems.parent().removeClass('active').end().filter("[href='#" + id + "']").parent().addClass('active');
     }
+  }]);
 
-    _createClass(MenuActiveScroller, [{
-        key: 'selectActive',
-        value: function selectActive() {
-            // Get container scroll position
-            var fromTop = this.jWindow.scrollTop() + this.topMenuHeight;
-
-            // Get id of current scroll item
-            var cur = this.scrollItems.map(function () {
-                var windowTop = $(this).offset().top;
-                if (windowTop < fromTop) return this;
-            });
-            // Get the id of the current element
-            cur = cur[cur.length - 1];
-            var id = cur && cur.length ? cur[0].id : '';
-            // Set/remove active class
-            this.menuItems.parent().removeClass('active').end().filter("[href='#" + id + "']").parent().addClass('active');
-        }
-    }]);
-
-    return MenuActiveScroller;
+  return MenuActiveScroller;
 }();
 
 exports.default = MenuActiveScroller;
