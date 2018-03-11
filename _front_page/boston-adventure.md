@@ -4,6 +4,7 @@ background: img/boston.JPG
 position: 3
 menu: Accommodations
 classes: center-text
+target: boston
 ---
 
 # Hotel

@@ -3,6 +3,7 @@ position: 1
 menu: Photos
 classes: center-text
 single: true
+target: photos
 ---
 
 <div id="wedding-gallery"></div>

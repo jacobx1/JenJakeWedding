@@ -11,9 +11,9 @@
    ========================================================================== */
 
 html {
-    color: #222;
-    font-size: 1em;
-    line-height: 1.4;
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
 }
 
 /*
@@ -27,13 +27,13 @@ html {
  */
 
 ::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
+  background: #b3d4fc;
+  text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
-    text-shadow: none;
+  background: #b3d4fc;
+  text-shadow: none;
 }
 
 /*
@@ -41,12 +41,12 @@ html {
  */
 
 hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
 }
 
 /*
@@ -61,7 +61,7 @@ iframe,
 img,
 svg,
 video {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 /*
@@ -69,9 +69,9 @@ video {
  */
 
 fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /*
@@ -79,7 +79,7 @@ fieldset {
  */
 
 textarea {
-    resize: vertical;
+  resize: vertical;
 }
 
 /* ==========================================================================
@@ -87,119 +87,115 @@ textarea {
    ========================================================================== */
 
 .browserupgrade {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
 }
 
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
 
-
 @-skrollr-keyframes parallax {
+  0-bottom-top {
+    top: -50vh;
+  }
 
-	0-bottom-top {
-		top: -50vh;
-	}
-
-	0-top-bottom {
-        top: 0vh;
-	}
+  0-top-bottom {
+    top: 0vh;
+  }
 }
 
 .background-holder {
-    height: 150vh;
-    width: 100%;
-    -skrollr-animation-name:parallax;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-origin: content-box;
-    z-index: -1;
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    will-change: scroll-position;
+  height: 150vh;
+  width: 100%;
+  -skrollr-animation-name: parallax;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  z-index: -1;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  will-change: scroll-position;
 }
 
 .page-section {
-    overflow: auto;
+  overflow: auto;
 }
 
 .page-section > article {
-    max-width: 600px;
-    padding: 1em;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: rgba(255, 255, 255, 0.8);
-    font-family: 'Philosopher', sans-serif;
-    font-size: 1.2em;
+  max-width: 600px;
+  padding: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  font-family: 'Philosopher', sans-serif;
+  font-size: 1.2em;
 }
 
 .page-section > article h1 {
-    font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .center-text {
-    text-align: center;
+  text-align: center;
 }
 
 .page-section-giant {
-    overflow: hidden;
-    min-height: 100vh;
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  min-height: 100vh;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
 }
 
 .page-section-giant h1 {
-    font-size: 10vw;
-    color: #FFF;
-    font-weight: normal;
-    text-transform: uppercase;
-    font-family: 'Barlow Semi Condensed', sans-serif;
-    text-align: center;
+  font-size: 10vw;
+  color: #fff;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  text-align: center;
 }
 
 #main-footer {
-    text-align: center;
+  text-align: center;
 }
 
 #main-navigation {
-    position: fixed;
-    background-color: #FFF;
-    width: 100%;
-    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
-    z-index: 100;
+  position: fixed;
+  background-color: #fff;
+  width: 100%;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
+  z-index: 100;
 }
 
 .site-menu li.active {
-    background-color: #777;
+  background-color: #777;
 }
 
 .site-menu li.active a {
-    color: #fff;
+  color: #fff;
 }
 
 @media (max-width: 480px) {
-  
-    .site-menu {
-        visibility: hidden;
-    }
+  .site-menu {
+    visibility: hidden;
+  }
 
-    .page-section > article {
-        width: 90%;
-    }
+  .page-section > article {
+    width: 90%;
+  }
 
-    .page-section-giant h1 {
-        font-size: 20vw;
-    }
+  .page-section-giant h1 {
+    font-size: 20vw;
+  }
 }
-
 
 /* ==========================================================================
    Helper classes
@@ -210,7 +206,7 @@ textarea {
  */
 
 .hidden {
-    display: none !important;
+  display: none !important;
 }
 
 /*
@@ -223,17 +219,17 @@ textarea {
  */
 
 .visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    -webkit-clip-path: inset(50%);
-    clip-path: inset(50%);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-    white-space: nowrap; /* 1 */
+  border: 0;
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap; /* 1 */
 }
 
 /*
@@ -244,15 +240,15 @@ textarea {
 
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
-    clip: auto;
-    -webkit-clip-path: none;
-    clip-path: none;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
-    white-space: inherit;
+  clip: auto;
+  -webkit-clip-path: none;
+  clip-path: none;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+  white-space: inherit;
 }
 
 /*
@@ -260,7 +256,7 @@ textarea {
  */
 
 .invisible {
-    visibility: hidden;
+  visibility: hidden;
 }
 
 /*
@@ -277,12 +273,12 @@ textarea {
 
 .clearfix:before,
 .clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+  content: ' '; /* 1 */
+  display: table; /* 2 */
 }
 
 .clearfix:after {
-    clear: both;
+  clear: both;
 }
 
 /* ==========================================================================
@@ -292,14 +288,14 @@ textarea {
    ========================================================================== */
 
 @media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+  /* Style adjustments for viewports that meet the condition */
 }
 
 @media print,
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
+  (-webkit-min-device-pixel-ratio: 1.25),
+  (min-resolution: 1.25dppx),
+  (min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
 }
 
 /* ==========================================================================
@@ -309,71 +305,71 @@ textarea {
    ========================================================================== */
 
 @media print {
-    *,
-    *:before,
-    *:after {
-        background: transparent !important;
-        color: #000 !important; /* Black prints faster:
+  *,
+  *:before,
+  *:after {
+    background: transparent !important;
+    color: #000 !important; /* Black prints faster:
                                    http://www.sanbeiji.com/archives/953 */
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
 
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
 
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
+  a[href]:after {
+    content: ' (' attr(href) ')';
+  }
 
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
+  abbr[title]:after {
+    content: ' (' attr(title) ')';
+  }
 
-    /*
+  /*
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
      */
 
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
-        content: "";
-    }
+  a[href^='#']:after,
+  a[href^='javascript:']:after {
+    content: '';
+  }
 
-    pre {
-        white-space: pre-wrap !important;
-    }
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
+  pre {
+    white-space: pre-wrap !important;
+  }
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
 
-    /*
+  /*
      * Printing Tables:
      * http://css-discuss.incutio.com/wiki/Printing_Tables
      */
 
-    thead {
-        display: table-header-group;
-    }
+  thead {
+    display: table-header-group;
+  }
 
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
 
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
 
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
 }
