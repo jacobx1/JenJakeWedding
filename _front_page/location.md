@@ -4,7 +4,7 @@ background: img/winery.jpg
 position: 2
 menu: Wedding Details
 classes: center-text
-taget: location
+target: details
 ---
 
 # Wedding Details
