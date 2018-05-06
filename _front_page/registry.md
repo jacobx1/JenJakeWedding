@@ -5,7 +5,7 @@ position: 5
 menu: Registry
 classes: center-text
 single: false
-draft: true
+draft: false
 target: registry
 ---
 
