@@ -3,6 +3,7 @@ heading: Contact Us
 background: img/j_stockton_20150729_9048.jpg
 position: 100
 target: contact
+draft: true
 ---
 
 <form class="pure-form pure-g" netlify-honeypot="bot-field" data-netlify="true" name="wedding-contact">
