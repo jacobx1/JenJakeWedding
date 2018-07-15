@@ -9,7 +9,7 @@ target: boston
 
 # Hotel
 
-We have a hotel block at the [Courtyard Marriott Boston Littleton](https://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=Chuang%20-%20Schwind%20Wedding%5Eboslt%60wcswcsa%60149.00%60USD%60false%603%608/24/18%608/26/18%607/18/18&app=resvlink&stop_mobi=yes). Click [HERE](https://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=Chuang%20-%20Schwind%20Wedding%5Eboslt%60wcswcsa%60149.00%60USD%60false%603%608/24/18%608/26/18%607/18/18&app=resvlink&stop_mobi=yes) to reserve your room.  
+We have a hotel block at the [Courtyard Marriott Boston Littleton](https://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=Chuang%20-%20Schwind%20Wedding%5Eboslt%60wcswcsa%60149.00%60USD%60false%603%608/24/18%608/26/18%607/18/18&app=resvlink&stop_mobi=yes). Click [HERE](https://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=Chuang%20-%20Schwind%20Wedding%5Eboslt%60wcswcsa%60149.00%60USD%60false%603%608/24/18%608/26/18%607/18/18&app=resvlink&stop_mobi=yes) to reserve your room by July 18.  
 
 Alternatively, you can reserve by calling 1-978-440-5040 using the code **WCS** at the _Courtyard Boston-Littleton, MA hotel._
 
