@@ -5,11 +5,12 @@ position: 2
 menu: Wedding Details
 classes: center-text
 target: details
+draft: true
 ---
 
 # Wedding Details
 
-The ceremony and reception will be held at [Nashoba Valley Winery](https://nashobawinery.com/) on __August 25, 2018__ at __12pm__
+The ceremony and reception will be held at [Nashoba Valley Winery](https://nashobawinery.com/) on **August 25, 2018** at **12pm**
 
 The ceremony will be held outdoors. Following the ceremony, the reception is inside the pavilion. The attire suggestion is [daytime semiformal/dressy casual](http://mentalfloss.com/article/80325/what-7-wedding-dress-codes-really-mean). There won't be much walking, but make sure you have comfortable shoes for dancing!
 
