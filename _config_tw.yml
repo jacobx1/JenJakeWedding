@@ -1,0 +1,8 @@
+name: Jen and Jake Wedding (tw)
+collections:
+  front_page:
+    relative_path: _front_page/tw/
+markdown: kramdown
+exclude: ['node_modules']
+lang: tw
+destination: ./_site/tw/

@@ -1,5 +1,8 @@
 name: Jen and Jake Wedding
 collections:
-  - front_page
+  front_page:
+    relative_path: _front_page/en/
 markdown: kramdown
 exclude: ['node_modules']
+lang: en
+destination: ./_site/en/

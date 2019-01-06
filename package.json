@@ -4,6 +4,8 @@
     "prettier:write": "npx prettier --write ./{css,webpack}/**/*.{js,md,html,css}",
     "build": "node ./node_modules/webpack/bin/webpack.js",
     "build-full": "node ./node_modules/webpack/bin/webpack.js && jekyll build",
+    "build-en": "jekyll build --config _config_en.yml",
+    "build-tw": "jekyll build --config _config_tw.yml",
     "precommit": "lint-staged"
   },
   "lint-staged": {
@@ -27,7 +29,7 @@
     "lint-staged": "^7.2.2",
     "react": "^16.2.0",
     "react-addons-update": "^15.6.2",
-    "react-dom": "^16.2.0",
+    "react-dom": "^16.7.0",
     "webpack": "^3.10.0"
   },
   "dependencies": {
