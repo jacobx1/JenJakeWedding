@@ -6,3 +6,5 @@ markdown: kramdown
 exclude: ['node_modules']
 lang: en
 destination: ./_site/en/
+site_title: Jen and Jake
+share_title: Jen and Jake are celebrating their wedding in Taiwan! | June 2, 2019

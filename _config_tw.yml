@@ -5,3 +5,5 @@ markdown: kramdown
 exclude: ['node_modules']
 lang: tw
 destination: ./_site/tw/
+site_title: Jen and Jake
+share_title: Jen和Jake正在台灣慶祝他們的婚禮！| 2019年6月2日
