@@ -5,6 +5,8 @@ position: 3
 menu: Accommodations
 classes: center-text
 target: boston
+draft: true
+lang: en
 ---
 
 # Hotel

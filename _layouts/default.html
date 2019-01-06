@@ -27,7 +27,7 @@
     </head>
     <body>
 
-        {% assign sorted_items = site.front_page | where: "draft","false" | sort: 'position' %}
+        {% assign sorted_items = site.front_page | where: "draft","false" | where: "lang",site.lang | sort: 'position' %}
 
         <header>
             <nav id="main-navigation">
@@ -36,6 +36,7 @@
                     <ul class="pure-menu-list site-menu">
 
                         {% for post in sorted_items %}
+                        
                         <li class="pure-menu-item">
                             <a href="#{{ post.target }}" class="pure-menu-link">
                             {% if post.menu %}

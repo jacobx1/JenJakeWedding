@@ -4,6 +4,7 @@ menu: Photos
 classes: center-text
 single: true
 target: photos
+lang: en
 ---
 
 <div id="wedding-gallery"></div>

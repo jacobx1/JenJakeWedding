@@ -5,6 +5,7 @@ position: 0
 menu: Our Story
 classes: center-text
 target: story
+lang: en
 ---
 
 # We met at Big Blue...

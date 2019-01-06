@@ -5,6 +5,8 @@ position: 2
 menu: Wedding Details
 classes: center-text
 target: details
+lang: en
+draft: true
 ---
 
 # Wedding Details
