@@ -11,7 +11,7 @@ draft: false
 
 ## Sunday, June 2<sup>nd</sup> 2019 at 12pm
 
-### [Howard Hotel](http://www.howard-hotels.com.tw/en/taipei/home/)
+### [The Howard Hotel](http://www.howard-hotels.com.tw/en/taipei/home/)
 
 160 Ren Ai Rd.  
 Sec.3  
