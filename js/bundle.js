@@ -2733,7 +2733,7 @@ object-assign
       exports.default = PhotoGallery;
 
       var PHOTO_SET = [
-        { src: 'img/IMG_0252-mini.jpg' },
+        { src: 'img/IMG_0437-mini.jpg' },
         { src: 'img/j_stockton_20150729_8878.jpg', width: 2, height: 3 },
         { src: 'img/IMG_0483-mini.jpg' },
         { src: 'img/j_stockton_20150729_8897.jpg', width: 2, height: 3 },
