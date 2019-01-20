@@ -1,5 +1,5 @@
 ---
-heading: 聯繫我們
+heading: 聯繫
 background: img/j_stockton_20150729_9048.jpg
 position: 100
 target: contact
@@ -13,12 +13,12 @@ lang: tw
     </p>
     <fieldset  class="pure-u-1">
         <div class="pure-control-group">
-            <label for="name" class="pure-u-1">名稱</label>
+            <label for="name" class="pure-u-1">姓名</label>
             <input id="name" type="text" placeholder="Your Name" name="Name" class="pure-u-1">
         </div>
 
         <div class="pure-control-group">
-            <label for="email" class="pure-u-1">電子郵件地址</label>
+            <label for="email" class="pure-u-1">電子郵件</label>
             <input id="email" type="email" placeholder="name@example.com" name="Email" class="pure-u-1">
         </div>
 
