@@ -1,8 +1,8 @@
 ---
-heading: 台灣招待會
+heading: 台灣囍宴
 background: img/j_stockton_20160510_1698-4-mini.jpg
 position: -1
-menu: 2019年接待
+menu: 2019年台灣囍宴
 classes: center-text
 target: tw-reception
 lang: tw
@@ -13,4 +13,5 @@ draft: false
 
 ### [The Howard Hotel](http://www.howard-hotels.com.tw/taipei/home/)
 
-10657 台北市仁愛路三段 160 號
+福華大飯店，三樓，金龍廳
+10657 台北市仁愛路三段
