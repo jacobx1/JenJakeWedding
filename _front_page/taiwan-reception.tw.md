@@ -13,5 +13,5 @@ draft: false
 
 ### [The Howard Hotel](http://www.howard-hotels.com.tw/taipei/home/)
 
-福華大飯店，三樓，金龍廳
-10657 台北市仁愛路三段
+福華大飯店，三樓，金龍廳  
+台北市仁愛路三段 160 號
